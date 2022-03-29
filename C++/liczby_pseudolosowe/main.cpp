@@ -14,7 +14,6 @@ int main()
     srand(time(NULL));
     liczba = rand()%100+1;
 
-
     while(strzal!=liczba)
     {
         ile_prob++;
@@ -33,7 +32,6 @@ int main()
     }
 
     getchar(); getchar();
-
 
     return 0;
 }
